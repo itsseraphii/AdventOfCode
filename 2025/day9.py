@@ -9,7 +9,6 @@ class Day9(AOCDay):
         return 0
 
     def part1(self):
-        # Huge dict
         maxValue = 0
         for i in range(0, len(self.red)):
             for j in range(i, len(self.red)):
